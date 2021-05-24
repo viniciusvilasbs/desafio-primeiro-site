@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background: rgb(99,160,224);
+    background: linear-gradient(180deg, rgba(99,160,224,1) 38%, rgba(116,36,134,1) 92%);
+    color: white;
+
+}
+.header{
+    font-family: 'Chela One', cursive;
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 40px;
+}
+
+.img-header{
+    height: 300px;
+    width: 1700px;
+}
+
+.container{
+    display: flex;
+}
+
+.navbar{
+    width: 30%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 5px;
+}
+
+.content{
+    width: 70%;
+    padding: 30px;
+}
+
+.social li{
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+}
+
+.social img{    
+    width: 30px;
+    display: flex;
+}
+
+.footer{
+    background: rgb(116,36,134);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.img-quem{
+    width: 200px;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+.video{
+    padding: 20px 0;
+}
+
+.services{
+    list-style-type:circle;
+    margin: 0 0 0 20px;
+}
+
+.email img{
+    width: 60px;
+    margin: 0 0 10px;
+}
